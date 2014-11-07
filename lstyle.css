@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+*:focus {outline: none;}
+body 
+{
+	background:#f0f0f0;
+	font: 28px 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+#header
+{
+	background:#f0f0f0;
+	width:auto;
+	height: 152px;
+}
+#logo
+{
+	margin:auto;
+	background:url(images/logo.png) no-repeat;
+	background-size:contain;
+	width:220px;
+	height:149px;
+}
+#loading
+{
+	margin:auto;
+	width:800px;
+	height:500px;
+}
+#icon
+{
+	width:250px;
+	height:250px;
+	background:url(images/loading.gif);
+	background-size:250px 250px;
+}
